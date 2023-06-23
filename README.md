@@ -1,0 +1,6 @@
+--simple application for todo list.
+--Git clone this folder into your root directory.
+--Create a virtual environment install all requirements from req.txt file.
+--Inside dbconn.py file add your database credentials
+--Create models in model.py file
+--Schema.py file is for getting verified fields.

@@ -1,0 +1,17 @@
+<html>
+  <head style="align-items: center;">
+    <title>Update</title>
+  </head>
+  <form method="POST" action="/update">
+    <div class="row">
+      <div class="col-md-12">
+        <label for="">Task Name:</label>
+        <input type="text" class="form-control" name="task" value="{{task.task}}" required/>
+      </div>
+      <input type="hidden"  name="id" value="{{task.id}}" />
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-info mt-4">Update</button>
+      </div>
+    </div>
+  </form>
+</html>
